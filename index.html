@@ -108,45 +108,98 @@
     <img src="assets/eduk.png" alt="education" class="img-fluid base-img">
   </div>
 
-  <!-- PROJECTS -->
-  <div id="projects" class="container ">
-    <div class="text-center">
-      <img src="assets/bg.png" alt="project bg" class="img-fluid base-img">
+<!-- PROJECTS -->
+<div id="projects" class="container">
+  <div class="text-center">
+    <img src="assets/bg.png" alt="project bg" class="img-fluid base-img">
+  </div>
+  <div class="row">
+
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card" data-bs-toggle="modal" data-bs-target="#orgModal" style="cursor:pointer;">
+        <h2>Organizational Involvement</h2>
+        <p>Click to view details</p>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <h2>Organizational Involvement</h2>
-          <p>SCpES-1st Year Representative SY 2023-2024</p>
-          <p>Engineering Student Council staff SY 2023-2024</p>
-          <p>UE-Jam Session Member SY 2023-2024 </p>
-          <p>UE-JAM Session In-house host SY 2024-2025</p>
-          <p>SCpES-2nd Year Representative SY 2024-2025</p>  
-          <p>SCpES-VP for Secretariat SY 2024-2025</p> 
-          <p>UE-ARMS- Junior Events Management SY 2024-2025</p>                               
-          <p>UE-ARMS- President SY 2025-2026</p>
-          <p>SCpES-VP for Events and Programs SY 2025-2026</p>
-          <p>UE-Zenith EVP for Events SY 2025-2026</p>
-        </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card" data-bs-toggle="modal" data-bs-target="#skillsModal" style="cursor:pointer;">
+        <h2>Skills and Interest</h2>
+        <p>Click to view details</p>
       </div>
-      <div class="col-md-4">
-        <div class="card">
-          <h2>Skills and Interest</h2>
-          <p>Public Speaking and Hosting, Leadership and Event Management, Modeling and Fashion, Technical Skills (Word, PowerPoint, Excel)</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <h2>Work Experience</h2>
-          <p>- Volunteer Youth service music ministry (July 2018 - May 2022)</p>
-          <p>- Work Immersion Student Teacher at Springfield school of Novaliches (Oct 2022 - Jan 2023)</p>
-          <p>- Galaxy Campus Batch 2 Ambassador at Samsung PH (July 2024 - July 2025)</p>
-          <p>- Social Media Manager for Arcane Production (2024 - current)</p>
-          <p>- Social Media Manager for Aqua Project Corporation (Apr 2025 - current)</p>
-        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card" data-bs-toggle="modal" data-bs-target="#workModal" style="cursor:pointer;">
+        <h2>Work Experience</h2>
+        <p>Click to view details</p>
       </div>
     </div>
   </div>
+</div>
+
+<!-- ================= MODALS ================= -->
+
+<!-- Organizational Involvement Modal -->
+<div class="modal fade" id="orgModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Organizational Involvement</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-start">
+        <p>SCpES-1st Year Representative SY 2023-2024</p>
+        <p>Engineering Student Council staff SY 2023-2024</p>
+        <p>UE-Jam Session Member SY 2023-2024</p>
+        <p>UE-JAM Session In-house host SY 2024-2025</p>
+        <p>SCpES-2nd Year Representative SY 2024-2025</p>  
+        <p>SCpES-VP for Secretariat SY 2024-2025</p> 
+        <p>UE-ARMS- Junior Events Management SY 2024-2025</p>                               
+        <p>UE-ARMS- President SY 2025-2026</p>
+        <p>SCpES-VP for Events and Programs SY 2025-2026</p>
+        <p>UE-Zenith EVP for Events SY 2025-2026</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Skills Modal -->
+<div class="modal fade" id="skillsModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Skills and Interest</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-start">
+        <p>Public Speaking and Hosting, Leadership and Event Management, Modeling and Fashion, Technical Skills (Word, PowerPoint, Excel)</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Work Experience Modal -->
+<div class="modal fade" id="workModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Work Experience</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body text-start">
+        <p>- Volunteer Youth service music ministry (July 2018 - May 2022)</p>
+        <p>- Work Immersion Student Teacher at Springfield school of Novaliches (Oct 2022 - Jan 2023)</p>
+        <p>- Galaxy Campus Batch 2 Ambassador at Samsung PH (July 2024 - July 2025)</p>
+        <p>- Social Media Manager for Arcane Production (2024 - current)</p>
+        <p>- Social Media Manager for Aqua Project Corporation (Apr 2025 - current)</p>
+      </div>
+    </div>
+  </div>
+</div>
 
   <!-- CONNECT -->
 <div id="connect" class="container my-5 text-center">
@@ -161,5 +214,6 @@
     <a href="https://t.me/yourprofile" target="_blank" class="connect-link">Telegram</a>
   </div>
 </div>
+
 </body>
 </html>
